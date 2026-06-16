@@ -1,1 +1,200 @@
-style.css
+
+
+body{
+background:#1a1818;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.menu{
+background:#181818;
+border-bottom:4px solid #b71c1c;
+}
+
+.logo{
+width:90px;
+border-radius:10px;
+transition:.3s;
+}
+
+.logo:hover{
+transform:scale(1.05);
+}
+
+.nav-link{
+color:white !important;
+font-weight:bold;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#FFD54F !important;
+}
+
+
+.logo-central{
+width:180px;
+max-width:90%;
+border-radius:15px;
+transition:.4s;
+box-shadow:0px 0px 15px rgba(255,255,255,.1);
+}
+
+.logo-central:hover{
+transform:scale(1.05);
+}
+
+
+.banner{
+background:#1E1E1E;
+padding:50px;
+border-top:3px solid #1B5E20;
+border-bottom:3px solid #b71c1c;
+}
+
+.banner h1{
+color:#FFD54F;
+font-weight:900;
+font-size:50px;
+}
+
+.banner p{
+color:#ddd;
+font-size:20px;
+}
+
+
+.news-card{
+position:relative;
+overflow:hidden;
+border-radius:15px;
+transition:.3s;
+cursor:pointer;
+background:#202020;
+border:2px solid #333;
+}
+
+.news-card:hover{
+transform:translateY(-10px);
+border:2px solid #FFD54F;
+}
+
+.news-card img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+
+.overlay{
+padding:15px;
+background:#181818;
+}
+
+.overlay h4{
+color:#FFD54F;
+font-size:22px;
+font-weight:bold;
+}
+
+.overlay p{
+color:#ddd;
+font-size:15px;
+}
+
+.news-card:hover .overlay{
+background:#1B5E20;
+}
+
+a{
+text-decoration:none;
+}
+
+/* SOBRE */
+h2{
+color:#FFD54F;
+font-weight:900;
+}
+
+.sobre-img{
+width:100%;
+height:500px;
+object-fit:cover;
+border-radius:15px;
+transition:.3s;
+}
+
+.sobre-img:hover{
+transform:scale(1.03);
+}
+
+.btn-warning{
+font-weight:bold;
+padding:12px 25px;
+color: #111;
+}
+
+.text-secondary-light {
+color: #ccc;
+}
+
+/* RODAPÉ */
+.footer{
+background:#181818;
+padding:40px;
+border-top:4px solid #b71c1c;
+margin-top: 50px;
+}
+
+.footer h4{
+color:#FFD54F;
+font-weight:bold;
+}
+
+.footer p{
+color:#ccc;
+}
+
+/* SCROLL */
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+background:#1B5E20;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#FFD54F;
+}
+
+@media(max-width:768px){
+.banner h1{
+font-size:35px;
+}
+
+.banner p{
+font-size:16px;
+}
+
+.logo{
+width:70px;
+}
+
+.logo-central{
+width:140px;
+}
+
+.news-card img{
+height:250px;
+}
+
+.sobre-img{
+height:350px;
+margin-bottom:20px;
+}
+}
